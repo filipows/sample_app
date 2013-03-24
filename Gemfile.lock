@@ -29,6 +29,7 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     arel (3.0.2)
+    bootstrap-sass (2.1.0.0)
     builder (3.0.4)
     capybara (1.1.2)
       mime-types (>= 1.16)
@@ -51,7 +52,7 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    ffi (1.4.0)
+    ffi (1.5.0)
     guard (1.6.2)
       listen (>= 0.6.0)
       lumberjack (>= 1.0.2)
@@ -166,6 +167,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (= 2.1)
   capybara (= 1.1.2)
   coffee-rails (= 3.2.2)
   guard-rspec (= 1.2.1)
